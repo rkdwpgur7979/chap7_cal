@@ -33,9 +33,20 @@ class Control:
     def pow(self, a, b):
         try:
            if (a==0):
+<<<<<<< HEAD
                 raise Exception("Base Error")
             
         except Exception as e:
             return e
         
         return pow(a, b)   
+=======
+                print("어머같다")
+                raise Exception("Base Error")
+
+        except Exception as e:
+            return e
+        
+        return pow(a, b)   
+    
+>>>>>>> ce3e0bb (Modify pow func using check base)
