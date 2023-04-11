@@ -34,6 +34,7 @@ class Control:
         try:
            if (a==0):
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise Exception("Base Error")
             
         except Exception as e:
@@ -42,8 +43,10 @@ class Control:
         return pow(a, b)   
 =======
                 print("어머같다")
+=======
+>>>>>>> bae38f5 (Modify pow func using exception)
                 raise Exception("Base Error")
-
+            
         except Exception as e:
             return e
         
